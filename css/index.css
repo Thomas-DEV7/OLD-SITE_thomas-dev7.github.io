@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    font-family: verdana;
+}
+body{
+    background: white;
+    /* background-image: url(https://cutewallpaper.org/21/1280x720-gif/VjLoopFreeVaporwave-1-GIF.gif);
+    background-size: 100%;
+    background-attachment: fixed; */
+
+}
+.header{
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 30px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    border: 1px solid cyan;
+
+}
+.header p{
+    margin-bottom: 30px;
+}
+.header ul li{
+    display: inline-block;
+    padding-right: 4px;
+    padding-bottom: 30px
+}
+.header ul li a{
+    text-decoration: none;
+    color: cyan;
+}
+
+/* Cabeçalho do site */
+.rodape{
+    text-align: center;
+    background: black;
+    color: white;
+    padding:20px 0 20px 0;
+    margin-left: 10%;
+    margin-right:10%;
+    border: 5px solid steelblue;
+    border-radius: 20px 20px 0 0;
+}
+.imagem{
+    text-align: center;
+}
+.imagem img{
+    border-radius: 20px;
+    border: 5px solid steelblue;
+    margin: 20px;
+}
+.line{
+    background-color: steelblue;
+    padding-bottom: 1%;
+    margin-bottom: 50px;
+}
+.content h2{
+    margin-top: 30px;
+    font-family: monospace;
+}
+
+.content, .conjunto{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #f5f5f5
+}
+
+.conjunto{
+    border-collapse: collapse;
+    border: 1px groove transparent;
+    border-bottom: 30px;
+    margin-left: 15%;
+    padding-top: 10px;
+    margin-right: 15%;
+    border-radius: 20px;
+    color: black;
+}
+.conjunto h2{
+    font-size: x-large;
+}
+.conjunto img{
+    margin-top: 50px;
+}
+.line2{
+    background-color: steelblue;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.nav-wrapper{
+    background-color: black;
+}
+strong{
+    color: steelblue;
+}
+#btn-content{
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0 0 0px 20px;
+}
+#btn-content:hover{
+    background-color: cyan;
+    border-radius: 0 0 20px 0;
+}
+#btn-menu:hover{
+    background-color: steelblue;
+    border-radius: 0 0 60px 60px;
+}
+.conts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.blocs{
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: steelblue;
+    border-radius: 10px 0 10px 0;
+    border: solid 1px dashed;
+}
+.blocs p{
+    color: white;
+    font-family: sans-serif;
+
+}
+.conts2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.blocs2{
+    width: 300px;
+    /* padding-top: 300px; */
+    text-align: center;
+    margin: 10px auto;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 0 0;
+    border: solid 1px dashed;
+    padding-top: 5px;
+    
+
+}
+.blocs2 p{
+    color: #000;
+    font-family: sans-serif;
+
+}
+.blocs2 h3{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+.cont-center{
+    text-align: center;
+    margin: 20px;
+}
+noscript{
+    background-color: red;
+    font-size: 50px;
+}
+#logo-img{
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+.contato{
+    justify-content: center;
+    text-align: center;
+}
+form{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    text-align: center;
+}
