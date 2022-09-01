@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    font-family: verdana;
+}
+body{
+    background: white;
+    /* background-image: url(https://cutewallpaper.org/21/1280x720-gif/VjLoopFreeVaporwave-1-GIF.gif);
+    background-size: 100%;
+    background-attachment: fixed; */
+
+}
+.header{
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 30px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    border: 1px solid cyan;
+
+}
+.header p{
+    margin-bottom: 30px;
+}
+.header ul li{
+    display: inline-block;
+    padding-right: 4px;
+    padding-bottom: 30px
+}
+.header ul li a{
+    text-decoration: none;
+    color: cyan;
+}
+.line{
+    background-color: steelblue;
+    padding-bottom: 1%;
+    margin-bottom: 50px;
+}
+.line2{
+    background-color: steelblue;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.nav-wrapper{
+    background-color: black;
+}
+strong{
+    color: steelblue;
+}
+
+#btn-content:hover{
+    background-color: cyan;
+    border-radius: 0 0 20px 0;
+}
+#btn-menu:hover{
+    background-color: steelblue;
+    border-radius: 0 0 60px 60px;
+}
+/* ROSTO */
+.sobre{
+    justify-content: center;
+    text-align: center;
+}
+.sobre h1{
+    font-size: 30px;
+}
+.sobre img{
+    height: 300px;
+    width: 300px;
+    border-radius: 400px;
+}
+img.redes{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+
+}
+@media (max-width: 700px) {
+    .sobre img{
+        height: 180px;
+        width: 180px;
+    }
+    img.redes{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+/* conteudo das box */
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.conteudo .card{
+    margin: 10px;
+    width: 600px;
+    height: 300px;
+    border: 1px #c2c2c2 solid;
+    border-radius: 10px;
+}
+.conteudo .card .balls:hover{
+    background-color: steelblue;
+}
+.conteudo .card h2, .conteudo .card p{
+    margin: 10px;
+}
+.conteudo .card .balls h2{
+    font-size: 25px;
+    width: 50%;
+    color: #fff;
+}
+.conteudo .card .balls{
+    padding: 10px;
+    background-color: #c2c2c2;
+    border-radius: 10px 10px 0 0 ;
+    display: flex;
+    align-items: baseline;
+}
+.conteudo .card .balls .red, .conteudo .card .balls .yellow, .conteudo .card .balls .green{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin: 1px;
+}
+/* Portifolio */
+.subtitulo h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px #93ceff solid;
+    border-radius: 50px;
+    padding: 20px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio h2{
+    font-size: 25px;
+    text-align: center;
+}
+.projeto{
+    background-color: #ececec;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #93ceff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.projeto:hover{
+    border: 5px solid #93ceff;
+}
+.projeto h3{
+    font-size: 20px;
+}
+.projeto img{
+    height: 250px;
+    width: 300px;
+    align-self: center;
+    margin: 10px;
+}
