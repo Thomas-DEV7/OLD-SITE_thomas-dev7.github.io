@@ -70,6 +70,16 @@ strong{
     width: 300px;
     border-radius: 400px;
 }
+.sobre .eu{
+    display: flex;
+    justify-content: center;
+    margin-left: 95px;
+}
+.sobre .eu .logo{
+    position: relative;
+    right: 95px;
+    
+}
 img.redes{
     height: 60px;
     width: 60px;
@@ -77,7 +87,7 @@ img.redes{
 
 }
 @media (max-width: 700px) {
-    .sobre img{
+    .sobre .eu img{
         height: 180px;
         width: 180px;
     }
