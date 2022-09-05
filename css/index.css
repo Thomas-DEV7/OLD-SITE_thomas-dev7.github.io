@@ -4,10 +4,6 @@
 }
 body{
     background: white;
-    /* background-image: url(https://cutewallpaper.org/21/1280x720-gif/VjLoopFreeVaporwave-1-GIF.gif);
-    background-size: 100%;
-    background-attachment: fixed; */
-
 }
 .header{
     margin-left: 7%;
@@ -175,4 +171,34 @@ img.redes{
     width: 300px;
     align-self: center;
     margin: 10px;
+}
+/* footer */
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: steelblue;
+    box-shadow: 2px grey;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+.rodape .logos img{
+    height: 150px;
+    background-color: white;
+    border-radius: 100px;
+}
+.rodape .links{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+}
+.rodape .links a{
+    color: white;
+    text-align: center;
+}
+.line-black{
+    padding: 10px;
+    width: 100%;
 }
