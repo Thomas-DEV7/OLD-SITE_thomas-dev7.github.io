@@ -202,3 +202,9 @@ img.redes{
     padding: 10px;
     width: 100%;
 }
+@media (max-width: 700px) {
+    .links{
+        width: 600px;
+    }
+    
+}
