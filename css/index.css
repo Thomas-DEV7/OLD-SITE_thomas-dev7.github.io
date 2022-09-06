@@ -64,6 +64,12 @@ img.redes{
         height: 70px;
         width: 70px;
     }
+    .sobre .eu .logo{
+        height: 100px;
+        width: 100px;
+        position: relative;
+        right: 50px;
+    }
 }
 
 /* conteudo das box */
