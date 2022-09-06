@@ -5,38 +5,10 @@
 body{
     background: white;
 }
-.header{
-    margin-left: 7%;
-    margin-right: 7%;
-    padding-top: 30px;
-    border-radius: 0 0 20px 20px;
-    text-align: center;
-    background: black;
-    color: white;
-    border: 1px solid cyan;
-
-}
-.header p{
-    margin-bottom: 30px;
-}
-.header ul li{
-    display: inline-block;
-    padding-right: 4px;
-    padding-bottom: 30px
-}
-.header ul li a{
-    text-decoration: none;
-    color: cyan;
-}
 .line{
     background-color: steelblue;
     padding-bottom: 1%;
     margin-bottom: 50px;
-}
-.line2{
-    background-color: steelblue;
-    padding-bottom: 10px;
-    border-radius: 20px;
 }
 .nav-wrapper{
     background-color: black;
@@ -60,6 +32,7 @@ strong{
 }
 .sobre h1{
     font-size: 30px;
+    text-shadow: 2px 1px gray;
 }
 .sobre img{
     height: 300px;
@@ -118,10 +91,11 @@ img.redes{
     font-size: 25px;
     width: 50%;
     color: #fff;
+    text-shadow: 3px 1px grey;
 }
 .conteudo .card .balls{
     padding: 10px;
-    background-color: #c2c2c2;
+    background-color: #e9e9e9;
     border-radius: 10px 10px 0 0 ;
     display: flex;
     align-items: baseline;
