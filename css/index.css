@@ -179,6 +179,7 @@ img.redes{
     display: flex;
     margin-bottom: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .tec img{
     height: 100px;
