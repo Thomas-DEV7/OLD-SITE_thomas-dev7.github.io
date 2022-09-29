@@ -1,3 +1,11 @@
+:root{
+    --purple-p: #6623ED;
+    --purple-s: #6685ED;
+    --purple-alt: #8568F0;
+    --purple-clean: #9d82ff;
+}
+    
+
 *{
     margin: 0;
     font-family: verdana;
@@ -6,7 +14,7 @@ body{
     background: white;
 }
 .line{
-    background-color: steelblue;
+    background-color: var(--purple-p);
     padding-bottom: 1%;
     margin-bottom: 50px;
 }
@@ -14,7 +22,12 @@ body{
     background-color: black;
 }
 strong{
-    color: steelblue;
+    color: var(--purple-p);
+}
+#menu{
+    height: 30px;
+    margin-top: 15px;
+
 }
 
 #btn-content:hover{
@@ -22,7 +35,7 @@ strong{
     border-radius: 0 0 20px 0;
 }
 #btn-menu:hover{
-    background-color: steelblue;
+    background-color: var(--purple-p);
     border-radius: 0 0 60px 60px;
 }
 /* ROSTO */
@@ -87,9 +100,7 @@ img.redes{
     border: 1px #c2c2c2 solid;
     border-radius: 10px;
 }
-.conteudo .card .balls:hover{
-    background-color: steelblue;
-}
+
 .conteudo .card h2, .conteudo .card p{
     margin: 10px;
 }
@@ -101,7 +112,7 @@ img.redes{
 }
 .conteudo .card .balls{
     padding: 10px;
-    background-color: #e9e9e9;
+    background-color: var(--purple-alt);
     border-radius: 10px 10px 0 0 ;
     display: flex;
     align-items: baseline;
@@ -119,7 +130,7 @@ img.redes{
     padding: 20px;
 }
 .borda-top{
-    border-top: 3px #93ceff solid;
+    border-top: 3px var(--purple-alt) solid;
     border-radius: 50px;
 }
 .portfolio{
@@ -133,17 +144,24 @@ img.redes{
     text-align: center;
 }
 .projeto{
-    background-color: #ececec;
+    background-color: var(--purple-clean);
     padding: 20px;
     margin: 20px;
-    border: 2px solid #93ceff;
+    border: 2px solid var(--purple-alt);
     justify-content: center;
     display: flex;
     flex-direction: column;
     max-width: 600px;
 }
+.projeto a{
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: var(--purple-p);
+}
 .projeto:hover{
-    border: 5px solid #93ceff;
+    border: 5px solid var(--purple-alt);
 }
 .projeto h3{
     font-size: 20px;
@@ -160,6 +178,7 @@ img.redes{
     margin-bottom: 100px;
     justify-content: center;
     flex-wrap: wrap;
+    border-bottom:  1px var(--purple-alt) solid;
 }
 .tec img{
     height: 100px;
@@ -174,7 +193,7 @@ img.redes{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(40px);
+        transform: translateY(10px);
     }
 }
 .tec img:nth-child(2){
@@ -194,7 +213,7 @@ img.redes{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: steelblue;
+    background-color: var(--purple-p);
     box-shadow: 2px grey;
     padding: 25px;
     flex-wrap: wrap;
